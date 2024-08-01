@@ -2,11 +2,11 @@ Create a file called `main.py` and define the following functions in it. Ensure 
 
 ### 1. Basic Function Definitions
 **Question:**  
-Define a function called `greet` that takes a name as an argument and prints a greeting message.  
+Define a function called `greet` that takes a name as an argument and returns a greeting message.  
 **Example:**  
 ```python
 greet("Alice")  
-# Output: Hello, Alice!
+# Returns: Hello, Alice!
 ```
 
 ### 2. Sum of Two Numbers
@@ -15,7 +15,7 @@ Write a function named `sum_of_two` that takes two numbers as arguments and retu
 **Example:**  
 ```python
 result = sum_of_two(5, 7)  
-# Output: 12
+# Returns: 12
 ```
 
 ### 3. Maximum of Three Numbers
@@ -24,7 +24,7 @@ Create a function called `max_of_three` that takes three numbers and returns the
 **Example:**  
 ```python
 largest = max_of_three(4, 9, 2)  
-# Output: 9
+# Returns: 9
 ```
 
 ### 4. Factorial Calculation
@@ -33,7 +33,7 @@ Write a function named `factorial` that calculates the factorial of a given numb
 **Example:**  
 ```python
 fact = factorial(5)  
-# Output: 120
+# Returns: 120
 ```
 
 ### 5. Check Prime Number
@@ -42,7 +42,7 @@ Define a function called `is_prime` that takes a number as input and returns `Tr
 **Example:**  
 ```python
 prime_status = is_prime(7)  
-# Output: True
+# Returns: True
 ```
 
 ### 6. Count Vowels in a String
@@ -51,5 +51,5 @@ Create a function named `count_vowels` that counts the number of vowels in a giv
 **Example:**  
 ```python
 vowel_count = count_vowels("hello world")  
-# Output: 3
+# Returns: 3
 ```
