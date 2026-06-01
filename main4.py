@@ -1,12 +1,10 @@
-#Factorial coding by using function
 def factorial(n):
-    if(n==0 or n==1):
-        return 1
-    else:
-        return n * factorial(n-1)
-n=int(input("enter the n values: "))
-res=factorial(n)
-print("factorial of ",n,"is",res)
+    if n < 0:
+        raise ValueError("factorial() not defined for negative values")
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
 
 
 
